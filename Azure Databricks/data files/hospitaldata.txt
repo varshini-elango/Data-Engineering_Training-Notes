@@ -1,0 +1,6 @@
+HospitalID,Name,City,State,Beds,EstablishedYear,Specialties
+H001,City Hospital,New York,NY,150,1985,Cardiology&Orthopedics
+H002,Mercy General,Los Angeles,CA,200,1990,Pediatrics&Neurology
+H003,Green Valley Clinic,Dallas,TX,75,2000,Dermatology&Family Medicine
+H004,Sunrise Hospital,Miami,FL,300,1975,Cardiology&Oncology&Neurology
+H005,Riverside Medical,Chicago,IL,220,1982,General Surgery&Orthopedics

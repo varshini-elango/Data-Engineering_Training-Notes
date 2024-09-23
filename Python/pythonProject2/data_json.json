@@ -1,0 +1,5 @@
+[
+  {"ID": 1, "City": "New York", "Salary": 90000},
+  {"ID": 2, "City": "Los Angeles", "Salary": 60000},
+  {"ID": 3, "City": "Chicago", "Salary": 70000}
+]

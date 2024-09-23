@@ -1,0 +1,82 @@
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/teacher_data-1.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/teacher_data-1.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/event_data_1.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/event_data_1.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/Sales_data_1.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/Sales_data_1.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/sales_data.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/sales_data.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/sales_data2.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/sales_data2.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/customer_data.json
+
+df1 = spark.read.format("json").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/customer_data.json")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/sales_data3.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/sales_data3.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/employees.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/employees.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/products.json
+
+df1 = spark.read.format("json").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/products.json")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/orders.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/orders.csv
+
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/orders.csv")
+
+import pandas as pd
+
+df1 = pd.read_csv("/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/orders.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/user.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/user.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/user.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/transaction.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/transaction.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/transaction.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/fraud.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/fraud.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/fraud.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/user_dim.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/user_dim.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/user_dim.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/transaction_fact.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/transaction_fact.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/transaction_fact.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/fraud_indicators.csv
+/dbfs/FileStore/shared_uploads/varshinie.1006@gmail.com/fraud_indicators.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/fraud_indicators.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/vehicle.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/vehicle.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/movie.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/movie.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/studentdata.csv
+df1 = spark.read.format("csv").option("header", "true").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/studentdata.csv")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/citydata.json
+df1 = spark.read.format("json").load("dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/citydata.json")
+
+dbfs:/FileStore/shared_uploads/varshinie.1006@gmail.com/hospitaldata.txt
